@@ -20,6 +20,8 @@ docker run                                   \
     -it                                      \
     --rm                                     \
     --name $NAME                             \
+    -e WIDTH=1280                            \
+    -e HEIGHT=720                            \
     -e PULSE_SERVER=docker.for.mac.localhost \
     -v ~/.config/pulse:/nobody/.config/pulse \
     -p ${PORT}:32000                         \

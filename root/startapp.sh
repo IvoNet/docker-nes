@@ -3,5 +3,5 @@
 while true;
 do
   # Your application startup here
-  echo TODO
+  /go/bin/nes /root/games
 done
